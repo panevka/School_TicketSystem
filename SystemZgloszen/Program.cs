@@ -1,9 +1,12 @@
-﻿namespace SystemZgloszen;
+﻿using SystemZgloszen;
+
+namespace SystemZgloszen;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var cli = new InterfaceCLI();
+        cli.Run();
     }
 }
